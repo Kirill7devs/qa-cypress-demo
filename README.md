@@ -1,6 +1,6 @@
 # Cypress QA Automation Demo
 
-This project contains real-world examples of Cypress-based E2E testing:
+This project contains real use-case examples of Cypress-based E2E testing:
 
 - Login flow with session caching
 - Creating and removing staff, offers, announcements, and salons
