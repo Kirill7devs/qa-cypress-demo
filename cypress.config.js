@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const { email: TEST_EMAIL, password: TEST_PASSWORD, baseUrl: BASE_URL } = process.env
+const { TEST_EMAIL: email, TEST_PASSWORD: password, BASE_URL: baseUrl } = process.env
 
 export default defineConfig({
   e2e: {
