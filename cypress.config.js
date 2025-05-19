@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+const {email: TEST_EMAIL, password: TEST_PASSWORD} = process.env
 export default defineConfig({
   e2e: {
     specPattern: [
@@ -14,8 +15,8 @@ export default defineConfig({
       // implement node event listeners here
     },
     env: {
-      email: "example@gmail.com",
-      password: "Qwertyu1!",
+      email,
+      password
     },
   },
 
